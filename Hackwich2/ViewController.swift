@@ -19,7 +19,18 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBAction func pressMeButtonPressed(_ sender: Any) {
+        //this is the code block. In this code block, I want you to print the string I got This!!
+        
+        print ("I got This!!")
+    }
+    
+   
+    @IBAction func pressMeTooButtonPressed(_ sender: Any) {
+        
+        
+         //this is the code block. In this code block, I want you to print the string Hello World
+        print ("Hello World")
+    }
 }
 
